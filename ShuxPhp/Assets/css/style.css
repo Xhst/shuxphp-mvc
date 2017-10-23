@@ -1,0 +1,117 @@
+body
+{
+	font-family: 'Fira Sans', sans-serif;
+	padding:0;
+	margin:0;
+	background:#e7e9f2;
+	color: #333;
+	font-weight: 100;
+	letter-spacing: -0.02em;
+}
+h1,h2,h3,h4,h5
+{
+	text-align: center;
+	color: rgba(0,0,0,.6);
+	font-weight: 100;
+}
+h1{
+	font-size:46px;
+}
+.top
+{
+	width:100%;
+	color:#fff;
+	height:10px;
+	text-align: center;
+	border-bottom:1px solid rgba(0,0,0,.5);
+	background-color:#09d;
+}
+.title
+{
+	margin-top:15px;
+	color:#035;
+    font-size:45px;
+    letter-spacing: 2px;
+    text-align:center;
+}
+.subtitle
+{
+    font-size:18px;
+    letter-spacing: 1px;
+    text-align:center;
+}
+main
+{
+ 	padding-top:20px;
+	width:100%;
+	background-color:#f0f2f7;
+}
+section{
+	max-width:700px;
+	padding:10px 0;
+	margin:0px auto;
+}
+.submain{
+	min-height:100px;
+}
+#box
+{
+	padding:4px;
+	background:#fff;
+	width:100%;
+	min-height:100px;
+	border-radius:3px;
+	border:1px solid rgba(0,66,99,.3);
+}
+ol.code 
+{ 
+    counter-reset: item;
+    list-style-type: none;
+	display: block;
+    font-family: monospace;
+    padding-left: 3.8em;
+    padding-top: 0;
+    margin-top: -1px;
+    margin-bottom:0;
+    border-radius: 0;
+    background-color:#222;
+    color:#fff;
+}
+ol.code > li:before 
+{ 
+	position:absolute;
+	margin-left:-26px;
+    content: counter(item) "  "; 
+    counter-increment: item;
+}
+ol.code > li
+{	
+	margin-left:-20px;
+	padding-left:2px;
+	min-height:17px;
+	background-color:#333;
+}
+ol.code > li > span.key
+{
+	color:#4ae;
+}
+ol.code > li > span.keyg
+{
+	color:#ae4;
+}
+ol.code > li > span.keycn
+{
+	color:#ea4;
+}
+ol.code > li > span.keycf
+{
+	color:#e4a;
+}
+ol.code > li > span.keyc
+{
+	color:#ed4;
+}
+ol.code > li > span.keynum
+{
+	color:#aaf;
+}
